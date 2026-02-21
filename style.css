@@ -39,6 +39,8 @@ body {
 /* CATEGORY BUTTON */
 
 .category-btn {
+
+    -webkit-tap-highlight-color: transparent;
     width: 100%;
     padding: 16px;
 
@@ -55,6 +57,11 @@ body {
     cursor: pointer;
     transition: 0.25s;
 }
+.category-btn:active {
+    transform: scale(0.97);
+    background: #cbb6a2;
+}
+
 
 .category-btn:hover {
     background: rgb(201, 181, 156);
