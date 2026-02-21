@@ -40,7 +40,7 @@ body {
     border: none;
     border-radius: 14px;
 
-    background: rgba(255,255,255,0.08);
+    background: rgba(3, 47, 27, 0.456);
     backdrop-filter: blur(12px);
 
     cursor: pointer;
