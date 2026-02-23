@@ -14,9 +14,9 @@ body {
 /* CONTAINER */
 
 .container {
-    max-width: 520px;
-    margin: auto;
-    padding: 24px 16px 70px;
+    max-width: 420px;   /* idealno za QR meni */
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 /* HEADER */
@@ -116,4 +116,23 @@ body {
     opacity: 0.9;
     color: #8C6A4E;
 
+}
+
+.header {
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px;
+}
+
+.logo {
+    width: clamp(130px, 35vw, 180px);
+    height: auto;
+    filter: brightness(0) sepia(1) saturate(600%);
+    opacity: 0.95;
+}
+
+body {
+    margin: 0;
 }
