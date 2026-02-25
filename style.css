@@ -119,11 +119,13 @@ body {
 }
 
 .header {
-    margin-bottom: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 0 12px;
+    position: sticky;
+    top: 0;
+
+    background: #f5f1ec; /* ISTA boja kao body */
+    z-index: 1000;
+
+    padding: 15px 0 10px;
 }
 
 .logo {
