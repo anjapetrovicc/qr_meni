@@ -122,24 +122,19 @@ body {
     position: sticky;
     top: 0;
 
-    background: #f5f1ec; /* ISTA boja kao body */
+    background: #F6F2ED; /* ISTA boja kao body */
     z-index: 1000;
 
     padding: 15px 0 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
 
 .logo {
     width: 100%;
-    max-width: 100%;
+    object-fit: contain;
     height: auto;
     display: block;
 
     filter: brightness(0) sepia(1) saturate(600%);
     opacity: 0.95;
-}
-
-.logo {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
 }
